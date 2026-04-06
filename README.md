@@ -1,9 +1,11 @@
-# React + Vite
-
 # 📝 Todo List Application
 
-A simple and user-friendly Todo List application built with React.
-Allows you to create, manage, and track your daily tasks efficiently.
+## 📖 Project Description
+
+Todo List Application is a modern and responsive web application built with React that helps users efficiently manage their daily tasks.
+The application provides a clean and intuitive interface for creating, tracking, and organizing tasks.
+
+This project demonstrates working with React components, state management, user interactions, and responsive UI design.
 
 ---
 
@@ -12,19 +14,19 @@ Allows you to create, manage, and track your daily tasks efficiently.
 * ➕ Add new tasks
 * ✅ Mark tasks as completed
 * ❌ Delete tasks
-* 🔍 Search tasks
-* 🔊 Sound notification on task completion
-* 📱 Responsive design
+* 🔍 Search tasks in real time
+* 🔊 Sound notification when completing tasks
+* 📱 Responsive layout (desktop & mobile)
+* ⚡ Fast performance with Vite
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React
-* Vite
-* JavaScript (ES6+)
-* SCSS
-* ESLint
+* **Frontend:** React, Vite
+* **Styling:** SCSS
+* **Language:** JavaScript (ES6+)
+* **Code Quality:** ESLint
 
 ---
 
@@ -48,58 +50,96 @@ src/
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Getting Started
 
-1. Clone the repository:
+### 1. Clone the repository
 
 ```
 git clone https://github.com/AnthonyWwWw/TodoListApplication.git
 ```
 
-2. Navigate to the project folder:
+### 2. Navigate to the project directory
 
 ```
 cd TodoListApplication
 ```
 
-3. Install dependencies:
+### 3. Install dependencies
 
 ```
 npm install
 ```
 
-4. Run the development server:
+### 4. Run the development server
 
 ```
 npm run dev
 ```
 
----
+### 5. Open in browser
 
-## 🌐 Live Demo
-
-*(add later if you deploy to Vercel or Netlify)*
+```
+http://localhost:5173
+```
 
 ---
 
 ## 📸 Screenshots
 
-*(you can add screenshots here later)*
+### 🏠 Main Page
+
+![Main Page](./screenshots/main.png)
+
+### ➕ Adding a Task
+
+![Add Task](./screenshots/add-task.png)
+
+### ✅ Completed Task
+
+![Completed Task](./screenshots/completed.png)
+
+### 🔍 Search Function
+
+![Search](./screenshots/search.png)
+
+### 📱 Mobile View
+
+![Mobile](./screenshots/mobile.png)
 
 ---
 
-## 🧠 Future Improvements
+## 🧠 Implemented Functionality
 
-* Edit tasks
-* Drag & drop sorting
-* Dark / Light theme
-* Backend integration (API)
+* Dynamic task creation using controlled inputs
+* State management with React hooks
+* Conditional rendering for task status
+* Event handling (add, delete, complete)
+* Real-time filtering (search)
+* Audio feedback integration
+* Responsive design with SCSS
+* Component-based architecture
+
+---
+
+## 🔮 Future Improvements
+
+* ✏️ Edit tasks
+* 🧲 Drag & Drop sorting
+* 🌙 Dark / Light theme
+* 💾 Local storage or backend integration
+* 🔐 User authentication
+
+---
+
+## 🌐 Live Demo
+
+*(add link after deployment to Vercel / Netlify)*
 
 ---
 
 ## 📄 License
 
-This project is open-source and available under the MIT License.
+This project is licensed under the MIT License.
 
 ---
 
