@@ -1,16 +1,108 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 Todo List Application
 
-Currently, two official plugins are available:
+A simple and user-friendly Todo List application built with React.
+Allows you to create, manage, and track your daily tasks efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* ➕ Add new tasks
+* ✅ Mark tasks as completed
+* ❌ Delete tasks
+* 🔍 Search tasks
+* 🔊 Sound notification on task completion
+* 📱 Responsive design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* React
+* Vite
+* JavaScript (ES6+)
+* SCSS
+* ESLint
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ │   ├── TodoForm.jsx
+ │   ├── TodoItem.jsx
+ │   ├── TodoList.jsx
+ │   └── UseWindowWidth.jsx
+ ├── styles/
+ │   └── App.scss
+ ├── assets/
+ ├── img/
+ ├── sound/
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```
+git clone https://github.com/AnthonyWwWw/TodoListApplication.git
+```
+
+2. Navigate to the project folder:
+
+```
+cd TodoListApplication
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Run the development server:
+
+```
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+*(add later if you deploy to Vercel or Netlify)*
+
+---
+
+## 📸 Screenshots
+
+*(you can add screenshots here later)*
+
+---
+
+## 🧠 Future Improvements
+
+* Edit tasks
+* Drag & drop sorting
+* Dark / Light theme
+* Backend integration (API)
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+GitHub: https://github.com/AnthonyWwWw
