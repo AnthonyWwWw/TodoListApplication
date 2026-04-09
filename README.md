@@ -92,7 +92,7 @@ http://localhost:5173
 
 ### ➕ Adding a Task
 
-![Add Task](./screenshots/add-task.png)
+![Add Task](./src/gif/add-task.gif)
 
 ### ✅ Completed Task
 
